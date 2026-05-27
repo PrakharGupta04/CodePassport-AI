@@ -1,0 +1,26 @@
+{
+  "model": "models/codepassport-lora",
+  "is_baseline": false,
+  "num_samples": 200,
+  "metrics": {
+    "BLEU-1": 38.9,
+    "BLEU-2": 31.2,
+    "BLEU-3": 28.6,
+    "BLEU-4": 26.3,
+    "ROUGE-1": 48.2,
+    "ROUGE-2": 24.1,
+    "ROUGE-L": 45.7
+  },
+  "avg_ref_length": 58.3,
+  "avg_gen_length": 62.1,
+  "_note": "These are sample placeholder metrics for UI demo. Run evaluate.py to generate real metrics.",
+  "failure_cases": [
+    {
+      "code_snippet": "def f(x): return x*2",
+      "generated": "DOCSTRING: Multiplies input by two.",
+      "reference": "DOCSTRING: Returns double the input value. PURPOSE: ...",
+      "issues": ["Very short output (4 words) — possible truncation", "Missing sections: PURPOSE, BEHAVIOR SUMMARY, INPUTS / OUTPUTS, ASSUMPTIONS, EDGE CASES, DEVELOPER NOTE"]
+    }
+  ],
+  "sample_outputs": []
+}

@@ -1,0 +1,33 @@
+{
+  "num_samples": 100,
+  "_note": "Sample placeholder results for UI demo. Run baseline.py to generate real metrics.",
+  "metrics": {
+    "zero_shot": {
+      "BLEU-1": 18.4,
+      "BLEU-2": 12.1,
+      "BLEU-3":  9.8,
+      "BLEU-4":  8.2,
+      "ROUGE-1": 22.1,
+      "ROUGE-2":  6.4,
+      "ROUGE-L": 20.3
+    },
+    "prompt_eng": {
+      "BLEU-1": 24.7,
+      "BLEU-2": 18.3,
+      "BLEU-3": 16.2,
+      "BLEU-4": 14.1,
+      "ROUGE-1": 31.8,
+      "ROUGE-2": 12.5,
+      "ROUGE-L": 29.4
+    },
+    "finetuned": {
+      "BLEU-1": 38.9,
+      "BLEU-2": 31.2,
+      "BLEU-3": 28.6,
+      "BLEU-4": 26.3,
+      "ROUGE-1": 48.2,
+      "ROUGE-2": 24.1,
+      "ROUGE-L": 45.7
+    }
+  }
+}

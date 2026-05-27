@@ -1,0 +1,19 @@
+# ============================================================
+# CodePassport AI — Colab/Kaggle Training Requirements
+# Run this cell first in your notebook:
+#   !pip install -r requirements_colab.txt
+# ============================================================
+
+# These versions are pinned to avoid conflicts on Colab (tested April 2025)
+torch>=2.1.0
+transformers==4.40.2
+peft==0.10.0
+accelerate==0.29.3
+bitsandbytes==0.43.1       # QLoRA 4-bit quantization support
+datasets==2.19.0
+tokenizers==0.19.1
+sentencepiece==0.2.0
+nltk==3.8.1
+rouge-score==0.1.2
+tqdm==4.66.2
+numpy==1.26.4

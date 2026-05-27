@@ -1,0 +1,34 @@
+# Virtual Environments
+venv/
+env/
+.env
+
+# Trained Models & Checkpoints
+models/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+
+# Presentations & Documents
+*.pdf
+*.ppt
+*.pptx
+
+# Python Cache & Compiled Files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Streamlit Cache
+.streamlit/
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor Folders
+.vscode/
+.idea/
