@@ -179,6 +179,6 @@ streamlit run frontend/app.py
 
 ## 👤 Author
 
-Final Semester Generative AI Project  
+Prakhar Gupta
 Model: Salesforce/codet5-base + LoRA  
 Dataset: CodeSearchNet (Python subset)
